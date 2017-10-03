@@ -39,7 +39,7 @@ access_token = secret['github']['access_token']
 random_repo_url = base_url + repo_endpoint
 
 def generate_random_id():
-    last_id = 89163489
+    last_id = 105604879
     return randint(0, last_id)
 
 def get_random_repo():
